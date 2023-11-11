@@ -1335,11 +1335,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Software_workspaces\\Inveon Bootcamp\\4.gun\\MicroserviceInveonOrnek\\Inveon.GatewaySolution\\Inveon.GatewaySolution.csproj",
+      "projectUniqueName": "D:\\Software_workspaces\\Inveon Bootcamp\\Homework\\MicroserviceInveonOrnek\\Inveon.GatewaySolution\\Inveon.GatewaySolution.csproj",
       "projectName": "Inveon.GatewaySolution",
-      "projectPath": "D:\\Software_workspaces\\Inveon Bootcamp\\4.gun\\MicroserviceInveonOrnek\\Inveon.GatewaySolution\\Inveon.GatewaySolution.csproj",
+      "projectPath": "D:\\Software_workspaces\\Inveon Bootcamp\\Homework\\MicroserviceInveonOrnek\\Inveon.GatewaySolution\\Inveon.GatewaySolution.csproj",
       "packagesPath": "C:\\Users\\cagla\\.nuget\\packages\\",
-      "outputPath": "D:\\Software_workspaces\\Inveon Bootcamp\\4.gun\\MicroserviceInveonOrnek\\Inveon.GatewaySolution\\obj\\",
+      "outputPath": "D:\\Software_workspaces\\Inveon Bootcamp\\Homework\\MicroserviceInveonOrnek\\Inveon.GatewaySolution\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cagla\\AppData\\Roaming\\NuGet\\NuGet.Config",

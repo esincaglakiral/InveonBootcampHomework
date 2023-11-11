@@ -11682,11 +11682,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Software_workspaces\\Inveon Bootcamp\\Homework\\MicroservicesInveonProject\\Inveon.Web\\Inveon.Web\\Inveon.Web.csproj",
+      "projectUniqueName": "D:\\Software_workspaces\\Inveon Bootcamp\\Homework\\MicroserviceInveonOrnek\\Inveon.Web\\Inveon.Web.csproj",
       "projectName": "Inveon.Web",
-      "projectPath": "D:\\Software_workspaces\\Inveon Bootcamp\\Homework\\MicroservicesInveonProject\\Inveon.Web\\Inveon.Web\\Inveon.Web.csproj",
+      "projectPath": "D:\\Software_workspaces\\Inveon Bootcamp\\Homework\\MicroserviceInveonOrnek\\Inveon.Web\\Inveon.Web.csproj",
       "packagesPath": "C:\\Users\\cagla\\.nuget\\packages\\",
-      "outputPath": "D:\\Software_workspaces\\Inveon Bootcamp\\Homework\\MicroservicesInveonProject\\Inveon.Web\\Inveon.Web\\obj\\",
+      "outputPath": "D:\\Software_workspaces\\Inveon Bootcamp\\Homework\\MicroserviceInveonOrnek\\Inveon.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cagla\\AppData\\Roaming\\NuGet\\NuGet.Config",

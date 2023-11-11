@@ -1,5 +1,4 @@
-﻿using Inveon.Web.Services.IServices;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace Inveon.Web.Areas.Admin.Controllers
 {

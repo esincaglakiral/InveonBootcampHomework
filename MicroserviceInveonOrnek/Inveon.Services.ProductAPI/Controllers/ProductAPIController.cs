@@ -1,9 +1,7 @@
-﻿using Inveon.Services.ProductAPI.Dto;
+﻿using Inveon.Services.ProductAPI.Models.DTOs;
 using Inveon.Services.ProductAPI.Repository;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System.Data;
 
 namespace Inveon.Services.ProductAPI.Controllers
 {
@@ -16,8 +14,9 @@ namespace Inveon.Services.ProductAPI.Controllers
         public ProductAPIController(IProductRepository productRepository)
         {
             _productRepository = productRepository;
-            this._response = new ResponseDto();
+            _response = new ResponseDto();
         }
+
         [HttpGet]
         public async Task<object> Get()
         {
@@ -53,9 +52,8 @@ namespace Inveon.Services.ProductAPI.Controllers
             return _response;
         }
 
-
         [HttpPost]
-        [Authorize]
+        //[Authorize]
         public async Task<object> Post([FromBody] ProductDto productDto)
         {
             try
@@ -72,9 +70,8 @@ namespace Inveon.Services.ProductAPI.Controllers
             return _response;
         }
 
-
         [HttpPut]
-        [Authorize]
+        //[Authorize]
         public async Task<object> Put([FromBody] ProductDto productDto)
         {
             try
@@ -92,7 +89,7 @@ namespace Inveon.Services.ProductAPI.Controllers
         }
 
         [HttpDelete]
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         [Route("{id}")]
         public async Task<object> Delete(int id)
         {

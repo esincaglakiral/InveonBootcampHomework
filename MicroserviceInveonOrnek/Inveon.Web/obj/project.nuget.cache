@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Xb12gor86FlHMS5XAoa85qmUlR3KJPTLpiJWO0PUOh93w4pk0ZJYK9dPEhFdSygYn6W4uD/bAlc5EeHLqEyAQg==",
+  "dgSpecHash": "LxOtuyLwF6/fQ/0/TOQp/hGWa18QJ/djshEWbTNq3+NydDlVuesJ+QkRnGuNAGnjyna88zG9vT/ZXEpesBn7Hw==",
   "success": true,
-  "projectFilePath": "D:\\Software_workspaces\\Inveon Bootcamp\\Homework\\MicroservicesInveonProject\\Inveon.Web\\Inveon.Web\\Inveon.Web.csproj",
+  "projectFilePath": "D:\\Software_workspaces\\Inveon Bootcamp\\Homework\\MicroserviceInveonOrnek\\Inveon.Web\\Inveon.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cagla\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\cagla\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

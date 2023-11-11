@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TgfF5AEE576aHhHE1HKTwEXHw51Ctf22DVMMobBO1Max+WVz3AF9++UzEyn2racBui4iNsvU9W7A2Laa96/j5Q==",
+  "dgSpecHash": "ExZw1BqbA3D3nTYERGz55xidsrQMk8o9GbFjC9LY7HrXE6C0cHqPTCt2ZF9Gl3IQkZgaa8ubQImh6BIC7ms1lQ==",
   "success": true,
-  "projectFilePath": "D:\\Software_workspaces\\Inveon Bootcamp\\4.gun\\MicroserviceInveonOrnek\\Inveon.GatewaySolution\\Inveon.GatewaySolution.csproj",
+  "projectFilePath": "D:\\Software_workspaces\\Inveon Bootcamp\\Homework\\MicroserviceInveonOrnek\\Inveon.GatewaySolution\\Inveon.GatewaySolution.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cagla\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",
     "C:\\Users\\cagla\\.nuget\\packages\\identitymodel\\5.1.0\\identitymodel.5.1.0.nupkg.sha512",

@@ -11,13 +11,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{90B9
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{D574D1B0-2D01-4D4B-BA84-86582BDCB5D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inveon.Services.ProductAPI", "..\..\6.gün\Inveon.Services.ProductAPI\Inveon.Services.ProductAPI.csproj", "{49A07E15-12BA-4561-AE2C-EA1458945800}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inveon.Services.ProductAPI", "..\..\6.gün\Inveon.Services.ProductAPI\Inveon.Services.ProductAPI.csproj", "{49A07E15-12BA-4561-AE2C-EA1458945800}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inveon.Web", "Inveon.Web\Inveon.Web.csproj", "{12B58D2D-90F8-497D-841C-A8F5E9818AD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inveon.Web", "Inveon.Web\Inveon.Web.csproj", "{12B58D2D-90F8-497D-841C-A8F5E9818AD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inveon.GatewaySolution", "Inveon.GatewaySolution\Inveon.GatewaySolution.csproj", "{887DFB65-30DF-4DF8-81FA-3B43764C40C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inveon.GatewaySolution", "Inveon.GatewaySolution\Inveon.GatewaySolution.csproj", "{887DFB65-30DF-4DF8-81FA-3B43764C40C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inveon.Services.Identity", "Inveon.Services.Identity\Inveon.Services.Identity.csproj", "{BE0EA2EA-0A3A-4EA3-8C69-DA07D293D346}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inveon.Services.Identity", "Inveon.Services.Identity\Inveon.Services.Identity.csproj", "{BE0EA2EA-0A3A-4EA3-8C69-DA07D293D346}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

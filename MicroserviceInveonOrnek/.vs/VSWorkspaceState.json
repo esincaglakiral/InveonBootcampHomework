@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Inveon.Services.ProductAPI\\Migrations",
+    "\\Inveon.Services.ProductAPI\\Models",
+    "\\Inveon.Services.ProductAPI\\Models\\DTOs",
+    "\\Inveon.Services.ShoppingCartAPI\\Controllers",
+    "\\Inveon.Services.ShoppingCartAPI\\RabbitMQSender",
+    "\\Inveon.Web\\Areas\\Admin\\Views\\Product",
+    "\\Inveon.Web\\Areas\\Customer",
+    "\\Inveon.Web\\Areas\\Customer\\Controllers",
+    "\\Inveon.Web\\wwwroot"
+  ],
+  "SelectedNode": "\\Inveon.MessageBus",
+  "PreviewInSolutionExplorer": false
+}

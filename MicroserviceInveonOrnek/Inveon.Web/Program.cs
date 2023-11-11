@@ -1,21 +1,25 @@
+using Inveon.Web.Services.IServices;
+using Inveon.Web.Services;
+using Microsoft.AspNetCore.Authentication;
 using Inveon.Web;
 using Inveon.Web.Hubs;
-using Inveon.Web.Services;
-using Inveon.Web.Services.IServices;
-using Microsoft.AspNetCore.Authentication;
-
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.VisualBasic;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddHttpClient<IProductService, ProductService>();
 SD.ProductAPIBase = builder.Configuration["ServiceUrls:ProductAPI"];
 SD.ShoppingCartAPIBase = builder.Configuration["ServiceUrls:ShoppingCartAPI"];
 SD.CouponAPIBase = builder.Configuration["ServiceUrls:CouponAPI"];
 
 builder.Services.AddScoped<IProductService, ProductService>();
-builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<ICartService, CartService>();
+builder.Services.AddScoped<ICouponService, CouponService>();
+
 builder.Services.AddSignalR();
+
+builder.Services.AddControllersWithViews();
 
 builder.Services.AddAuthentication(options =>
 {
@@ -36,7 +40,6 @@ builder.Services.AddAuthentication(options =>
         options.TokenValidationParameters.RoleClaimType = "role";
         options.Scope.Add("inveon");
         options.SaveTokens = true;
-
     });
 
 var app = builder.Build();
@@ -61,7 +64,7 @@ app.UseEndpoints(endpoints =>
     endpoints.MapHub<MessageHub>("/messagehub");
     endpoints.MapControllerRoute(
         name: "default",
-        pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
+        pattern: "{area=Customer}/{controller=Customer}/{action=Index}/{id?}");
 });
 
 app.Run();
